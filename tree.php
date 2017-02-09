@@ -1,4 +1,27 @@
-<?php     
+<?php 
+
+/*
+
+A Nested List
+core
+    core1
+    core2
+    core3
+        core3.1
+            core3.1.1
+            core3.1.2
+        core3.2
+class
+    class1
+    class2
+    class3
+case
+    Random Stuff
+index.php
+register.php
+
+*/
+
 $array = ["core" => [
                             "core1",
                             "core2",
