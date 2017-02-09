@@ -1,7 +1,5 @@
-<?php
-        //Enter your code here, enjoy!
-
-$array = array("core" => [
+<?php     
+$array = ["core" => [
                             "core1",
                             "core2",
                             "core3" => ["core3.1", "core3.2"]
@@ -14,7 +12,7 @@ $array = array("core" => [
               "case" => "Random Stuff",
               "index.php",
               "register.php"
-              );
+              ];
 
 echo treeOut($array);
 
